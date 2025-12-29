@@ -33,7 +33,6 @@ Project ini dibuat sebagai **Frontend Test Case** menggunakan **Next.js App Rout
   - Update produk
   - Delete produk
 - Form menggunakan **react-hook-form**
-- Reusable form component
 
 ## 🧱 Tech Stack
 
