@@ -83,6 +83,16 @@ Akses:
 - User: `http://localhost:3000`
 - Admin: `http://localhost:3000/admin`
 
+## 📄 Environment Variables (`.env`)
+
+Tambahkan environment variable untuk mengatur **API endpoint**.
+
+File `.env`
+
+```bash
+NEXT_PUBLIC_API_URL=
+```
+
 ## 🧠 Catatan Implementasi
 
 - Uang hanya diterima dengan **nominal tertentu** (sesuai simulasi vending machine nyata)
