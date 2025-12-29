@@ -63,7 +63,7 @@ npm install
 ### 3️⃣ Jalankan json-server
 
 ```bash
-npx json-server --watch db.json --port 3001
+json-server --watch db.json --port 3001
 ```
 
 Endpoint:
