@@ -1,0 +1,89 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Teh Botol",
+      "price": 4500,
+      "stock": 12,
+      "image": "/images/teh-botol.png"
+    },
+    {
+      "id": 2,
+      "name": "Nescafe",
+      "price": 10000,
+      "stock": 0,
+      "image": "/images/nescafe.png"
+    },
+    {
+      "id": 3,
+      "name": "Bear Brand",
+      "price": 11000,
+      "stock": 0,
+      "image": "/images/bear-brand.png"
+    },
+    {
+      "id": 4,
+      "name": "Air Mineral",
+      "price": 2000,
+      "stock": 3,
+      "image": "/images/le-mineral.jpg"
+    },
+    {
+      "name": "Coca-cola",
+      "price": "5500",
+      "stock": 12,
+      "image": "",
+      "id": 6
+    },
+    {
+      "name": "Beng-beng",
+      "price": "2500",
+      "stock": "12",
+      "image": "",
+      "id": 7
+    },
+    {
+      "name": "Nasi uduk",
+      "price": "10000",
+      "stock": "5",
+      "image": "",
+      "id": 8
+    },
+    {
+      "name": "Sprite",
+      "price": "5000",
+      "stock": "4",
+      "image": "",
+      "id": 9
+    }
+  ],
+  "transactions": [
+    {
+      "productId": 2,
+      "productName": "Nescafe",
+      "price": 10000,
+      "paid": 20000,
+      "change": 10000,
+      "createdAt": "2025-12-29T10:25:33.980Z",
+      "id": 1
+    },
+    {
+      "productId": 1,
+      "productName": "Teh Botol",
+      "price": 4500,
+      "paid": 10000,
+      "change": 5500,
+      "createdAt": "2025-12-29T10:28:41.148Z",
+      "id": 2
+    },
+    {
+      "productId": 4,
+      "productName": "Air Mineral",
+      "price": 2000,
+      "paid": 2000,
+      "change": 0,
+      "createdAt": "2025-12-29T10:50:35.736Z",
+      "id": 3
+    }
+  ]
+}
