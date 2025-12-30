@@ -39,8 +39,9 @@ const TableProduct = ({ dataProducts, pageSize = 5 }: TableProductProps) => {
   const paginated = dataProducts.slice(start, start + pageSize);
 
   const handleDelete = async (id: number) => {
-    console.log(id);
-    confirm(`Delete product with id: ${id}`);
+    // console.log(id);
+    const isConfirmed = confirm(`Delete product with id: ${id}`);
+    if (!isConfirmed) return;
     await deleteProduct(id);
     // Optionally, you might want to refresh the product list or update the state here
     window.location.reload();
