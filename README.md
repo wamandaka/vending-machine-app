@@ -51,7 +51,7 @@ Project ini dibuat sebagai **Frontend Test Case** menggunakan **Next.js App Rout
 
 ```bash
 git clone <repository-url>
-cd vending-machine
+cd vending-machine-app
 ```
 
 ### 2️⃣ Install Dependencies
